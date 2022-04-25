@@ -20,9 +20,7 @@ class Test {
         val executorService = Executors.newSingleThreadExecutor()
 
         executorService.submit{
-            kotlin.run {
-                println("Hello")
-            }
+            println("This is the best thing that has been going on")
         }
     }
 }
